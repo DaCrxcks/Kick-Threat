@@ -1,4 +1,4 @@
-```lua
+
 game:GetService("RunService"):Set3dRenderingEnabled(false)
 
 local args = {
@@ -15,4 +15,3 @@ game.Players.LocalPlayer.Character.Humanoid.Health = 0
 task.wait(3)
 
 game.Players.LocalPlayer:Kick('CHEATS DETECTED! You have been detected to be using some sort of third party!')
-```
